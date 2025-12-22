@@ -1,0 +1,144 @@
+body {
+  background-color: #1c1e26;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2a2d3a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+header h1 {
+  color: #00bcd4;
+  font-size: 24px;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #00bcd4;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #1c1e26;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: 1px solid #444;
+}
+
+.search-bar input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 5px;
+}
+
+.search-bar button {
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+main {
+  padding: 40px;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.movie-card {
+  background-color: #2a2d3a;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.movie-title {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.rating {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+/* 🔽 Footer Styling */
+footer {
+  background-color: #2a2d3a;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 0;
+  color: #bbb;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #00bcd4;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+.filter-bar {
+  margin-bottom: 15px;
+}
+
+.filter-bar button {
+  padding: 8px 14px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-bar button:hover {
+  background-color: #0056b3;
+}
